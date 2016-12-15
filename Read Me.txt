@@ -1,0 +1,27 @@
+Twitter Login  using Fabric Twitter Login Kit
+
+
+We will discuss how to add twitter login to your android app. For this twitter login android tutorial, we will be creating a simple login app where the user will have the option to login using his/her twitter account. We will be using Fabric SDK for twitter login android tutorial. Fabric is a mobile platform with modules for quickly adding new services to your android apps for this. Once the user clicks on the Log in with Twitter Button, we will retrieve user information and add it to the navigation drawer.
+
+First you Need to install Fabric for Android Studio(its a plugin)..Once installed ,Restart Android Studio
+
+Secondly Create a Fabric Account by visiting following link : Fabric Twitter Login Kit
+
+Thirdly Now create a Twitter app by going to Twitter Application Management and Click on Create New App.
+Fill the form and accept Developer’s Agreement to create your app.After the creation you will get your Consumer Key and Consumer Secret
+
+Now return to android studio and Login to your fabric account
+In the All Kits, click on Twitter
+
+Click on install in the next Screen and then proceed further by clicking Already have an account.
+
+Enter the API Key and API secret you obtained in previous section here
+
+Click on apply and wait for gradle to sync your project
+
+Next, add the following dependency in your App’s build.gradle file to add Volley to your project.
+
+      compile 'com.android.volley:volley:1.0.0'
+
+
+NB:when you are creating the twitter app dont forget to fill the Callback URL
